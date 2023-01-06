@@ -24,5 +24,8 @@
 # Start a pool of asynchronous IO threads
 +A 16
 
+# Erlang runtime system will not allow more than 65536 connections by default. => Increase the limit to 102400
++Q 102400
+
 # Comment this line out to enable the interactive Erlang shell on startup
 +Bd -noinput
